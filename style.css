@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(14, 85, 92);
+    background-color: #085f6e;
     color: white;
     text-align: center;
     padding-top: 30%;
@@ -16,7 +16,7 @@ body {
 
     .red {
         font-size: 14px;
-        color: rgb(237, 169, 169);
+        color: rgb(237, 174, 174);
         background-color: red;
         border-radius: 7px;
         width: 45%;
