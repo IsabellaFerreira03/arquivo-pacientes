@@ -11,18 +11,10 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     max-width: 500px;
-    width: 89%;
+    width: 80%;
     }
 
-    .red {
-        font-size: 14px;
-        color: rgb(237, 174, 174);
-        background-color: red;
-        border-radius: 7px;
-        width: 45%;
-        box-shadow: none;
-    }
-
+    
 button {
     font-size: 15px;
     border-radius: 10px;
@@ -30,4 +22,3 @@ button {
     background-color: rgb(34, 210, 216);
     color: white;
 }
-
