@@ -1,0 +1,48 @@
+body {
+    background-color: #085f6e;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 17px;
+}
+
+p {
+    text-align: center;
+    padding: 15px;
+}
+
+.correto, .erro {
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.correto {
+    background-color: rgba(60, 184, 14, 0.345);
+}
+
+.erro {
+    background-color: rgba(184, 14, 14, 0.591);
+}
+
+.botao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 20vh; /* ajusta a altura do espaço do botão */
+}
+
+button {
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 9px 20px;
+    background-color: rgb(34, 210, 216);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
