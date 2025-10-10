@@ -40,6 +40,11 @@ button {
     text-align: center;
 }
 
+.meio {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+} 
 
 .butao {
     text-align: center;

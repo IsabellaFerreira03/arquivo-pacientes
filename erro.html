@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="erro.css">
+    <title>Medicação errada</title>
+</head>
+<body>
+    <h1>Atenção! Divergêngia detectada</h3>
+    <p>O Medicamento escaneado não corresponde à prescrição médica.</p>
+    <div class="correto">
+        <h3>Prescrito</h3>
+        <ul>
+            <li>Ceftriaxona 1 g IV - 12/12 h</li>
+            <li>Frequência: 12/12 h</li>
+            <li>Paciente: João Lopes (leito 7)</li>
+        </ul>
+    </div>
+    <div class="erro">
+        <h3>Escaneado</h3>
+        <ul>
+            <li>Cefazolina 1 g Via: IM</li>
+            <li>Frequência: Não configurada</li>
+        </ul>
+    </div>
+    <p>Verifique se houve troca da ampola, erro de leitura ou alteração médica recente antes de prosseguir. A administração incorreta pode causar reacões advsersas.</p>
+    <button onclick="window.location.href='https://isabellaferreira03.github.io/bulatech/leitor.html'">
+    Escanear novamente
+    </button>
+</body>
+</html>
